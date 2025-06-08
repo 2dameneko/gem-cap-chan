@@ -1,0 +1,32 @@
+# Ignore all folders
+*/
+
+# Except these
+!2tag/march.jpt
+!2tag/may.jpg
+!2tag/march.txt
+!2tag/may.txt
+
+# Ignore Python bytecode files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore virtual environment directories
+venv/
+.venv/
+env/
+.env/
+ENV/
+env.bak/
+venv.bak/
+
+# Ignore IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignore system files
+.DS_Store
+Thumbs.db
