@@ -78,12 +78,12 @@ def extract_caption(result: dict) -> str | None:
     if caption:
         return caption
 
-    # --- Variant 2: content is null; reasoning is in a separate field ---
-    #     (vLLM, some Ollama builds)
-    #     In this case the *actual answer* is sometimes still in content
-    #     after the backend finishes, but if not — there's nothing we can
-    #     use from reasoning_content as a caption.
-    #     Return None so the caller knows it failed.
+    # --- Variant 2: content is empty; try reasoning_content ---
+    reasoning = message.get("reasoning_content") or ""
+    if reasoning:
+        # Strip any possible think tags (unlikely, but safe)
+        return strip_thinking(reasoning)
+
     return None
 
 
