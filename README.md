@@ -1,8 +1,4 @@
-# 🖼️ gem-cap-chan
-
-<div align="center">
-    <img src="https://count.getloli.com/get/@gem-cap-chan?theme=asoul&padding=4" alt="Visitor count"><br>
-</div>
+# gem-cap-chan
 
 gem-cap-chan is a utility for batch captioning images with natural language using OpenAPI-compatible multimodal models like Gemma3. Designed for creating high-quality datasets for Stable Diffusion and LoRA training.
 
