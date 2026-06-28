@@ -1,0 +1,1 @@
+python gem-cap-chan-ideogram.py %1
