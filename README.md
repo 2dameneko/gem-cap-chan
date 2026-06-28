@@ -68,6 +68,7 @@ This project is a proof of concept and not production-ready
 * llama.cpp: [ggerganov/llama.cpp](https://github.com/ggerganov/llama.cpp)
 * Gemma3: [Google DeepMind](https://deepmind.google/technologies/gemma)
 * Pillow: [Python Imaging Library](https://python-pillow.org)
+* Ideogram4 magic prompt: [Ideogram 4](https://github.com/ideogram-oss/ideogram4)
 
 **Model Implementation Credits**  
 [Gemma3 27b](https://huggingface.co/unsloth/gemma-3-27b-it-GGUF) · [Gemma3 27b DPO Abliterated](https://huggingface.co/mradermacher/gemma3-27b-abliterated-dpo-GGUF)
